@@ -26,7 +26,7 @@ Simply open `index.html` in your browser — no build process or server required
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/sql-leetcode.git
+git clone https://github.com/swapnasubham-das/sql-leetcode.git
 
 # Open in browser
 open index.html
@@ -89,7 +89,7 @@ sql-leetcode/
 
 ## 👤 Author
 
-**Siddharth**
+**Swapnasubham Das**
 
 ## 📄 License
 
