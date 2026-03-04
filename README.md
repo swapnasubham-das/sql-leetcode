@@ -93,7 +93,7 @@ sql-leetcode/
 
 ## 📄 License
 
-© 2025 Siddharth. All rights reserved.
+© 2025 Swapnasubham Das. All rights reserved.
 
 ---
 
