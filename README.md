@@ -18,20 +18,37 @@ A sleek, interactive web application showcasing **50 curated SQL problems** from
 - **Syntax Highlighting** — Beautiful code presentation with proper SQL syntax colors
 - **Responsive Design** — Works seamlessly on desktop and mobile devices
 - **Copy to Clipboard** — One-click copy for any solution
+- **Modular Architecture** — Clean separation of HTML, CSS, and JavaScript
 - **Zero Dependencies** — Pure HTML, CSS, and JavaScript (no frameworks needed)
 
 ## 🚀 Quick Start
 
-Simply open `index.html` in your browser — no build process or server required!
+**Option 1: Local Server (Recommended)**
+
+ES6 modules require serving from a web server:
+
+```bash
+# Using Python
+python -m http.server 8000
+
+# Using Node.js (http-server)
+npx http-server
+
+# Using VS Code Live Server extension
+# Right-click index.html → "Open with Live Server"
+```
+
+Then open `http://localhost:8000` in your browser.
+
+**Option 2: Clone & Serve**
 
 ```bash
 # Clone the repository
 git clone https://github.com/swapnasubham-das/sql-leetcode.git
+cd sql-leetcode
 
-# Open in browser
-open index.html
-# or on Windows
-start index.html
+# Serve with Python
+python -m http.server 8000
 ```
 
 ## 📚 Problem Categories
@@ -61,8 +78,14 @@ The application features a **LeetCode-inspired** color palette:
 
 ```
 sql-leetcode/
-├── index.html    # Single-file application (HTML + CSS + JS)
-└── README.md     # Documentation
+├── css/
+│   └── styles.css      # All styling (CSS custom properties, themes)
+├── js/
+│   ├── app.js          # Application logic (ES6 module)
+│   └── questions.js    # 50 SQL problems with solutions
+├── index.html          # Main HTML structure
+├── README.md           # Documentation
+└── .gitignore          # Git exclusions
 ```
 
 ## 💡 Usage Tips
